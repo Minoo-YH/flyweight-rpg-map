@@ -1,0 +1,42 @@
+Flyweight RPG Map - Final Notes
+
+WHAT I DID
+----------
+I extended my previous Factory Method RPG Map Generator project.
+
+I added JavaFX to display a random RPG map in a window.
+
+I created TileGraphicFactory to share images between tiles of the same type.
+
+I created MapRenderer to draw the map using JavaFX Canvas.
+
+The Flyweight Pattern helps avoid creating the same image many times.
+
+HOW TO RUN
+----------
+1. Open Git Bash in the flyweight-rpg-map folder.
+2. Compile the project:
+
+   mvn clean compile
+
+3. Run the project:
+
+   mvn javafx:run
+
+RESULT
+------
+A JavaFX window opens and shows a random RPG map.
+
+The terminal also shows the number of shared tile images.
+
+SCREENSHOT
+----------
+screenshots/flyweight1.png
+
+TECHNOLOGIES
+------------
+Java 21, Maven, JavaFX
+
+DESIGN PATTERNS
+---------------
+Factory Method and Flyweight
