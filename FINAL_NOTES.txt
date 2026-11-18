@@ -1,4 +1,5 @@
-Flyweight RPG Map - Final Notes
+
+   Flyweight RPG Map - Final Notes
 
 WHAT I DID
 ----------
@@ -12,14 +13,36 @@ I created MapRenderer to draw the map using JavaFX Canvas.
 
 The Flyweight Pattern helps avoid creating the same image many times.
 
+HOW TO FIND MY PROJECT
+----------------------
+Open Git Bash.
+
+To go directly to my project folder from anywhere:
+
+cd ~/Desktop/flyweight-rpg-map
+
+To check my current folder:
+
+pwd
+
+IMPORTANT:
+- The correct folder name is Desktop, not Dekstop.
+- The ~ symbol means my home folder.
+- I do not need to enter Desktop first.
+- Always check that I am in flyweight-rpg-map before using Git commands.
+
 HOW TO RUN
 ----------
-1. Open Git Bash in the flyweight-rpg-map folder.
-2. Compile the project:
+1. Open Git Bash.
+2. Go to the project folder:
+
+   cd ~/Desktop/flyweight-rpg-map
+
+3. Compile the project:
 
    mvn clean compile
 
-3. Run the project:
+4. Run the project:
 
    mvn javafx:run
 
@@ -40,3 +63,11 @@ Java 21, Maven, JavaFX
 DESIGN PATTERNS
 ---------------
 Factory Method and Flyweight
+
+HOW TO SAVE CHANGES TO GITHUB
+-----------------------------
+Make sure I am in the flyweight-rpg-map folder.
+
+git add .
+git commit -m "Update project files"
+git push origin main
